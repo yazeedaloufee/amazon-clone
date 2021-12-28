@@ -1,0 +1,13 @@
+ .carousel-indicators,
+  .carousel-indicators li {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0;
+  }
+  .carousel-inner > .item > img {
+   width: 100% ;
+}
+.carousel-control-next, .carousel-control-prev{
+    height: 50%;
+    width:8% ;
+}
