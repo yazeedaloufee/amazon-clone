@@ -1,0 +1,95 @@
+
+.MainNav{
+    /* min-width: 700px; */
+    /* max-height: 39px; */
+    line-height: 1rem;
+display:flex;
+background-color: #232F3E;
+padding:9px;
+}
+.MainNav__content{
+    display:flex;
+    align-items: center;
+    background-color:#232F3E ;
+    flex:1;
+    
+}
+.MainNav__item{
+    color: white;
+    font-size: 14px;
+    padding:9px 8px;
+    font-weight: 500;
+    /* margin: 6px 0 6px 0; */
+    margin-bottom: 0;
+}
+.MainNav__item:hover{
+    padding:8px 7px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.MainNav__sideMenu{
+    padding:1px 8px;
+    display:flex
+    ;align-items: center;
+    color: white;
+    margin:0;
+}
+.MainNav__sideMenu:hover{
+    padding:0px 7px;
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+.menuIcon{
+    color: white;
+}
+.All{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom:0;
+ 
+}
+.overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color: rgba(0,0,0,0.7);
+}
+.closeButton{
+   
+    font-size: 24px;
+    position: absolute;
+    top:10px;
+    left:0;
+    margin-left:390px;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-5px); 
+    z-index: 75;
+}
+@keyframes show {
+    
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes moveSideBar{
+    0%{
+        transform: translateX(-420px);
+        z-index: 100;
+    }
+    100%{
+        transform: translateX(0px);
+        z-index: 100;
+    }
+}
+.closeIcon {
+    width: 40px !important;
+    height: 40px !important;
+}

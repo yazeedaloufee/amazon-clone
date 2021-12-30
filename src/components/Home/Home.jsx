@@ -1,4 +1,5 @@
 import React from 'react'
+import SideNav from '../Header/sideNav/SideNav'
 import Slider from './Slider'
 function Home() {
     return (

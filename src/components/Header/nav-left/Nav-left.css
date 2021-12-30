@@ -1,0 +1,36 @@
+.header__location{
+    display:flex;
+    margin-right: 5px;
+    padding: 1px 1px 1px 1px;
+}
+.header__locationIcon{
+    width: 15px;
+    color:white;
+    margin-top:6px;
+}
+.header__nav-left{
+    display: flex;
+}
+.header__nav-left{
+    float: none;
+    display: flex;
+}
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.nav-logo{
+    
+    padding: 1px 1px 1px 1px;
+}
+.nav-logo:hover,.header__location:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:0;
+}
+.header__locationIcon{
+    margin-top:15px;
+}

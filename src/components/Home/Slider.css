@@ -5,9 +5,13 @@
     opacity: 0;
   }
   .carousel-inner > .item > img {
-   width: 100% ;
+   width: 90% !important;
+   height: 600px;
 }
 .carousel-control-next, .carousel-control-prev{
     height: 50%;
     width:8% ;
+}
+.sliderSize{
+  width:100%;
 }
