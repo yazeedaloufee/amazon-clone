@@ -25,7 +25,7 @@ function OneProduct({id,title,price,description,category,image}) {
             <p className='descriptionClass'>{description}</p>
             <p>${price}</p>
             {hasPrime && (
-                <div>
+                <div className='prime'>
                     <img src="https://links.papareact.com/fdw"></img>
                     <p>FREE Next-day Delivery</p>
                 </div>
