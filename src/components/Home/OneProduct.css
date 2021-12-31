@@ -1,0 +1,52 @@
+.oneProductImg{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin:auto;
+}
+.oneProduct{
+    width:300px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    padding:10px;
+    border:1px solid red;
+}
+.categoryClass{
+    position:absolute;
+    right:15px;
+    font-size: x-small;
+    color: gray;
+    font-weight: 600;
+}
+.h4Class{
+    margin-top: 10px;
+    font-size:16px;
+}
+.starIcons{
+    color: #FFA41C;
+}
+.amazonButton{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    background-color:#ffd51b ;
+    border-radius: 1rem;
+    align-items: center;
+}
+.amazonButton:hover{
+
+    background-color: #F7CA00;
+}
+.amazonButton p{
+    margin-bottom: 0;
+}
+.descriptionClass{
+    display: -webkit-inline-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 3;
+    overflow:hidden;
+    
+}
