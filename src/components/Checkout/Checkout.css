@@ -1,0 +1,31 @@
+.checkout__main{
+    max-width: 1500px;
+    margin:auto;
+    background-color: #EAEDED!important;
+}
+@media(min-width:1500px){
+    .checkout__main{
+        display: flex;
+    }
+}
+.checkout__rightSide{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    /* spacing betweent them of 10 px */
+}
+.checkout__leftSide h1{
+    border-bottom: 1px;
+    margin:0;
+    line-height: 36px;
+    font-size: 28px;
+}
+.checkoutProduct__image{
+object-fit: contain;
+width: 180px;
+height:180px;
+max-width: 100%;
+} 
+
+.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    width: 75px !important;}

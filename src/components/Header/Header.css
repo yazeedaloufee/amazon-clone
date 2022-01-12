@@ -53,11 +53,30 @@
     display:flex;
     align-items: center;
     color:white;
+    height:50px ;
+    /* margin-right:20px; */
+    padding:1px 1px 1px 1px;
+}
+
+.header__optionBasket:hover{
+    
+    border: 1px solid white;
+    padding:0;
 
 }
+
 .header__basketCount{
-    margin-left:10px;
-    margin-right:10px;
+    /* margin-left:10px; */
+    /* margin-right:10px; */
+    font-size: 20px;
+    font-weight: 600;
+    color: #F08804;
+    position: absolute;
+    top:0;
+    left:0;
+   margin:10px 0 0 0 ;
+   line-height: 0px;
+   margin-left:38px;
 }
 .header__nav{
     display:flex;
@@ -86,4 +105,26 @@
 }
 .carousel-control-prev-icon {
     color: black;
+}
+.header__optionBasket__img{
+    position: relative;
+    /* display: flex; */
+    /* height: 100%; */
+    /* flex-direction: column; */
+
+}
+.header__optionBasket__words{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+    margin-right: 10px;
+    color: white;
+    height: 50px;
+    width:auto ;
+    
+    padding: 4px 4px 4px 4px;
+}
+.cartIcon{
+    width: 35px!important;
+    height: 35px!important;
 }

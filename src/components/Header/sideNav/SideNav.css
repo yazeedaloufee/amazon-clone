@@ -37,3 +37,28 @@
     padding: 10px 0px 10px 30px;
     font-size:19px;
 }
+.sidenaveRow{
+    display: flex;
+    width:100%;
+    justify-content:  space-between;
+    padding:15px 25px 15px 25px;
+    cursor:pointer;
+}
+.sidenaveRow:hover{
+    background-color: #eaeded;
+}
+.sidenavRow i {
+    color:#8e9090;
+}
+.sidenaveRow:hover i{
+color:#111111;
+}
+.sidenavContent{
+    padding: 15px 0px 15px 25px;
+}
+.sidenavContent:hover{
+background-color: #eaeded;}
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: black;
+}

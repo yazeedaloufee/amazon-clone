@@ -20,6 +20,5 @@ export const get = ()=>{
         const productsData=await res.json();
         dispatch(add(productsData));
     }
-
 }
 //we need to add the slice to the store...use the data in the compoenent 

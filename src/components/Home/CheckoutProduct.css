@@ -1,0 +1,29 @@
+ .checkout__actions__a{
+     color:#007185!important;
+     text-decoration: none;
+     font-size: .75rem;
+     /* margin-left:2rem; */
+     cursor: pointer;
+    }
+    
+    .checkout__actions__a:hover{
+        border-bottom:1px solid #007185;
+        
+    }
+    
+    .checkout__actions__aContainer{
+        padding-left:1rem;
+        padding-right: 1rem;
+        border-left:2px solid #EAEDED;
+        line-height: 0.75rem;
+        max-height: 0.75rem;
+        margin-top: 1rem;
+ }
+ .css-1869usk-MuiFormControl-root{
+     width:70px;
+     min-width: none !important;
+ }
+.grid-style{
+    min-width: 530px;
+    min-height: fit-content;
+} 

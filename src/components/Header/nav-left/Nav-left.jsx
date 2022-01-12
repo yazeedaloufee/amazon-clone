@@ -1,10 +1,14 @@
 import React from "react";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import {useNavigate} from 'react-router-dom';
 import "./Nav-left.css";
 function NavLeft() {
+    const navigate = useNavigate();
     return (
         <div className="header__nav-left">
-            <div className="nav-logo">
+            <div className="nav-logo" onClick={()=>{
+                navigate("/")
+            }}>
                 <img
                     className="header__logo"
                     src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"

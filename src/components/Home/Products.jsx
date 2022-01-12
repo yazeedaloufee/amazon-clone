@@ -17,9 +17,8 @@ function Products() {
     return (
         <div className='products'>
             {state&&state.map(({id,title,price,description,category,image},idx)=>
-            {return <OneProduct id={id} title={title} price={price} description={description} category={category} image={image}>
+            {return <OneProduct key={idx}id={id} title={title} price={price} description={description} category={category} image={image}>
                 
-            {console.log( title)}
             </OneProduct>})}            
         </div>
     )

@@ -1,0 +1,13 @@
+.auth__image{
+    width:130px;
+    height: auto;
+    color: black;
+    object-fit: contain;
+    margin:-27px 0 -27px 0;
+}
+.signin-button:hover{
+    background-image: linear-gradient(#F8E2AF,#EEB935);
+}
+.signin-button{
+    background-image: linear-gradient(#f7dfa5,#f0c14b);
+}
